@@ -1,12 +1,9 @@
+"""
+main.py
+Entry point aplikasi. Jalankan dengan: python main.py
+"""
 
-def main():
-    client.run(DISCORD_BOT_TOKEN)
+from mentor_bot import run_bot
 
 if __name__ == "__main__":
-    main()
-
-from config import (
-    DISCORD_BOT_TOKEN,
-    N8N_WEBHOOK_URL,
-    DISCORD_CHANNEL_ID
-)
+    run_bot()
