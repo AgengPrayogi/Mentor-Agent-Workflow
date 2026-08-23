@@ -35,7 +35,7 @@ except ValueError:
     )
 
 print("✓ Config loaded:")
-print(f"  - Bot Token: {DISCORD_BOT_TOKEN[:30]}...")
+print("  - Bot Token: configured")
 print(f"  - Webhook URL: {N8N_WEBHOOK_URL}")
 print(f"  - Channel ID: {DISCORD_CHANNEL_ID}")
 print("=" * 70 + "\n")
